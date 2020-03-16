@@ -1,0 +1,96 @@
+<!-- header -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <TextView
+        android:id="@+id/publish_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:gravity="center"
+        android:padding="@dimen/pd_5"
+        android:text="Publish"
+        android:textColor="@color/white"
+        android:translationZ="@dimen/pd_10" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:layout_weight="1.13"
+        android:background="@drawable/headerbg"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/pd_10"
+        android:paddingLeft="@dimen/pd_20"
+        android:paddingRight="@dimen/pd_20"
+        android:paddingTop="@dimen/pd_10">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/mg_10"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/clientLogo"
+                android:layout_width="@dimen/tournament_view_logo"
+                android:layout_height="@dimen/tournament_view_logo"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_person" />
+
+            <TextView
+                android:id="@+id/requestTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/mg_5"
+                android:gravity="center"
+                android:text="Name"
+                android:textAllCaps="true"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/size_h2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/locationNameView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Olympia Stadium"
+                android:textAllCaps="true"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/size_normal" />
+
+            <TextView
+                android:id="@+id/requestStartDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/mg_10"
+                android:gravity="center"
+                android:text="2018-04-30"
+                android:textAllCaps="true"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/size_normal" />
+
+            <Button
+                android:id="@+id/joinRequestButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/request_btn"
+                android:gravity="center"
+                android:minHeight="@dimen/mg_40"
+                android:paddingLeft="@dimen/pd_60"
+                android:paddingRight="@dimen/pd_60"
+                android:text="@string/join"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</FrameLayout>

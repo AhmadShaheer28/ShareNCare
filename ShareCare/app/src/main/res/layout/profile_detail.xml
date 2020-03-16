@@ -1,0 +1,269 @@
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_gray"
+
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/mg_10"
+        android:layout_marginTop="@dimen/mg_10"
+        android:layout_marginRight="@dimen/mg_10"
+        android:layout_marginBottom="@dimen/mg_10"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:paddingLeft="@dimen/pd_5"
+                android:text="About"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/editDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/ic_edit" />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/mg_5"
+            android:text="@string/team_description" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/mg_5"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            android:padding="@dimen/pd_5"
+            android:weightSum="3">
+
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1.3"
+                android:src="@drawable/ic_coach" />
+
+            <TextView
+
+                android:id="@+id/NameTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.7"
+                android:paddingLeft="@dimen/pd_5"
+                android:text="Name"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/size_normal" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:paddingRight="@dimen/pd_5"
+                android:text="name"
+                android:textSize="@dimen/size_10" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/mg_5"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            android:padding="@dimen/pd_5"
+            android:weightSum="3">
+
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1.3"
+                android:src="@drawable/ic_phone" />
+
+            <TextView
+
+                android:id="@+id/contactTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.7"
+                android:paddingLeft="@dimen/pd_5"
+                android:text="@string/contact"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/size_normal" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:paddingRight="@dimen/pd_5"
+                android:text="@string/contact"
+                android:textSize="@dimen/size_10" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/mg_5"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            android:padding="@dimen/pd_5"
+            android:weightSum="3">
+
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1.3"
+                android:src="@drawable/ic_mail_notification" />
+
+            <TextView
+
+                android:id="@+id/userNameTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.7"
+                android:paddingLeft="@dimen/pd_5"
+                android:text="Email"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/size_normal" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:paddingRight="@dimen/pd_5"
+                android:text="email"
+                android:textSize="@dimen/size_10" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/mg_5"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            android:padding="@dimen/pd_5"
+            android:weightSum="3">
+
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1.3"
+                android:src="@drawable/ic_coach" />
+
+            <TextView
+
+                android:id="@+id/gender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.7"
+                android:paddingLeft="@dimen/pd_5"
+                android:text="Gender"
+                android:textColor="@color/black"
+                android:textSize="@dimen/size_normal" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:paddingRight="@dimen/pd_5"
+                android:text="gender"
+                android:textSize="@dimen/size_10" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/mg_5"
+            android:visibility="gone"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            android:padding="@dimen/pd_5"
+            android:weightSum="3">
+
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1.3"
+                android:src="@drawable/ic_stadium_grey" />
+
+            <TextView
+
+                android:id="@+id/venueNameTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.7"
+                android:paddingLeft="@dimen/pd_5"
+            android:text="@string/arena"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/size_normal" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:paddingRight="@dimen/pd_5"
+                android:text="@string/arena"
+                android:textSize="@dimen/size_10" />
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+</androidx.core.widget.NestedScrollView>

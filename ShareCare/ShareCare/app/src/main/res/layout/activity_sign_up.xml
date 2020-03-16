@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/signup_bg"
+    android:paddingLeft="@dimen/pd_40"
+    android:paddingRight="@dimen/pd_40"
+    tools:context=".SignUp">
+    <include
+        android:id="@+id/progressView"
+        layout="@layout/progress_view"
+        android:visibility="gone"></include>
+
+
+    <LinearLayout
+        android:id="@+id/login_form"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/challengenow" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/mg_10"
+            android:gravity="center"
+            android:text="@string/signup"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="50dp">
+
+
+            <EditText
+                android:backgroundTint="@color/colorhint"
+                android:textColor="@color/white"
+                android:textColorHint="@color/colorhint"
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:hint="John James"
+                android:inputType="text"
+                android:lines="1"
+                android:padding="@dimen/pd_5"
+                android:scrollbars="vertical"/>
+
+        </RelativeLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/colorhint"
+            app:passwordToggleEnabled="true"
+            app:passwordToggleTint="@color/white">
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:hint="@string/hint_email"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/colorhint"
+            app:passwordToggleEnabled="true"
+            app:passwordToggleTint="@color/white">
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorhint"
+                android:hint="@string/hint_password"
+                android:inputType="textPassword"
+                android:textColor="@color/white"
+                android:textColorHint="@color/colorhint" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/colorhint"
+            app:passwordToggleEnabled="true"
+            app:passwordToggleTint="@color/colorhint">
+
+            <EditText
+                android:id="@+id/confirm_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorhint"
+                android:hint="@string/confirm_password"
+                android:inputType="textPassword"
+                android:textColor="@color/white"
+                android:textColorHint="@color/colorhint" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="60dp">
+
+            <EditText
+                android:backgroundTint="@color/colorhint"
+                android:textColor="@color/white"
+                android:textColorHint="@color/colorhint"
+                android:id="@+id/phoneNumber"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:hint="@string/phone_number_hint"
+                android:inputType="phone"
+                android:lines="1"
+                android:padding="@dimen/pd_5"
+                android:scrollbars="vertical"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="70dp">
+
+
+            <RadioGroup
+                android:id="@+id/radio"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="3"
+                android:orientation="horizontal"
+                android:checkedButton="@id/radioButton2">
+
+                <RadioButton
+                    android:textSize="20dp"
+                    android:id="@+id/radioButton2"
+                    android:layout_width="0dp"
+                    android:textColor="@color/white"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:buttonTint="@color/white"
+                    android:text="Male" />
+
+                <RadioButton
+                    android:textSize="20dp"
+                    android:textColor="@color/white"
+                    android:id="@+id/radioButton1"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/white"
+                    android:text="Female" />
+            </RadioGroup>
+        </RelativeLayout>
+
+
+
+        <Button
+            android:id="@+id/signup_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/mg_30"
+            android:background="@drawable/button_bg"
+            android:text="@string/register"
+            android:textColor="@color/white"
+            android:textSize="@dimen/size_button" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/mg_30"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1.3"
+                android:gravity="right"
+                android:text="@string/already_have_an_account"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

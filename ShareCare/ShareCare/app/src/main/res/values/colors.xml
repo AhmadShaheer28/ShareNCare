@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#0c9c31</color>
+    <color name="primary_dark">#006400</color>
+    <color name="accent">#4caf50</color>
+    <color name="primary_text">#212121</color>
+    <color name="gray">#3a3a3a</color>
+    <color name="club_name_list">#6b7789</color>
+    <color name="light_gray">#F5F5F5</color>
+
+    <!-- custom -->
+    <color name="colorAccent">#4caf50</color>
+    <color name="colorPrimary">#7bde08</color>
+    <color name="colorPrimaryDark">#388e3c</color>
+    <color name="darkGreen">#052918</color>
+    <color name="white">#FFFFFF</color>
+    <color name="warning">#FF0000</color>
+
+    <color name="facebook_primary">#3b5998</color>
+    <color name="googleplus_primary">#d34836</color>
+
+    <color name="team_name">#304460</color>
+
+    <color name="colorhint">#b1ffffff</color>
+    <color name="colorWhite">#FFFFFF</color>
+
+    <color name="blue">#00539c</color>
+    <color name="orange">#ffa500</color>
+    <color name="green">#009c00</color>
+    <color name="black">#000000</color>
+
+    <color name="colorBg">#85609D3E</color>
+
+    <string name="color_page">#00609D3E</string>
+
+</resources>

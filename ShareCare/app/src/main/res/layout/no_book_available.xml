@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:foregroundGravity="center_vertical|center"
+        android:gravity="center_vertical|center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+
+            android:layout_margin="@dimen/object_margin"
+            android:padding="@dimen/object_margin"
+            android:src="@drawable/ic_library_books" />
+
+
+        <TextView
+            android:id="@+id/empty_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="There is no book available right now"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

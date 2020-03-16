@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/progressView"
+        layout="@layout/progress_view"
+        android:visibility="gone"></include>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/pd_10"
+        android:orientation="vertical">
+
+
+
+        <ListView
+            android:id="@+id/conversation_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </ListView>
+
+
+        <include
+            android:id="@+id/empty_view"
+            layout="@layout/empty_conversation_view" />
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

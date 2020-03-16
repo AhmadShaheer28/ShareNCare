@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/accent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_marginVertical="36dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Internet Connection"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/white"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:paddingHorizontal="28dp"
+        android:gravity="center"
+        android:text="Internet not available, Cross check your internet connectivity and try again"
+        android:textColor="@color/gray"
+        />
+
+    <Button
+        android:id="@+id/ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        android:textSize="25dp"
+        android:background="@color/accent"
+        android:textColor="@color/white"
+        android:layout_gravity="center"/>
+
+
+</LinearLayout>

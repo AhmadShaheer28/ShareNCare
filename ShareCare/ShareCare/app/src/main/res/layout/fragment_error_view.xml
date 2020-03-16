@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:foregroundGravity="center_vertical|center"
+        android:gravity="center_vertical|center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/object_margin"
+            app:srcCompat="@drawable/cn_logo" />
+
+        <TextView
+            android:id="@+id/message_error"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal"
+            android:padding="@dimen/object_margin"
+            android:text="@string/challengenow"
+            android:textColor="@color/warning"
+            android:textSize="16sp" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

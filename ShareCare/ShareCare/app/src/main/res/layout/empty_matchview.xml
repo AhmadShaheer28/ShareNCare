@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:foregroundGravity="center_vertical|center"
+        android:gravity="center_vertical|center"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="64dp"
+            android:layout_marginBottom="@dimen/large_margin_object"
+            android:padding="@dimen/object_margin"
+
+            android:src="@drawable/football_field" />
+
+        <TextView
+            android:id="@+id/empty_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/row_margin"
+            android:gravity="center"
+            android:text="@string/no_matches_found"
+            android:textSize="@dimen/text_heading"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/object_margin"
+
+            android:text="@string/challenge_qoute_limt"
+            android:textSize="14dp"
+            android:textStyle="italic" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:padding="@dimen/btn_padding_16">
+
+        <Button
+            android:id="@+id/create_new_challenge_btn"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/activity_horizontal_margin"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:layout_weight="1"
+            android:background="@drawable/default_btn_bg"
+            android:text="@string/create_new_challenge"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+
+</RelativeLayout>

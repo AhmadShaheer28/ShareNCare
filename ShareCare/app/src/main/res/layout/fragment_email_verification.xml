@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:padding="@dimen/pd_40">
+
+
+    <include
+        android:id="@+id/progressView"
+        layout="@layout/progress_view"
+        android:visibility="gone"></include>
+
+
+    <LinearLayout
+        android:id="@+id/email_verification_form"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/email_verify"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/mg_30"
+            android:gravity="center"
+            android:text="@string/verify_your_email"
+            android:textColor="@color/white"
+            android:textSize="@dimen/size_h2" />
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lorem_ipsum"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/verify_email_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/mg_30"
+            android:background="@drawable/button_bg"
+            android:text="@string/verify"
+            android:textColor="@color/white"
+            android:textSize="@dimen/size_button" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/mg_30"
+            android:orientation="horizontal"
+            android:weightSum="2" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

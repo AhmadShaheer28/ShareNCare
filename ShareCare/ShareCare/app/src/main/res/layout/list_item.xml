@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/pd_10">
+
+
+    <TextView
+        android:id="@+id/keyRowItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:minHeight="24dp"
+        android:padding="@dimen/item_margin"
+        android:text="Key"
+        android:textSize="14sp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/keyValueItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="right|center_vertical"
+        android:minHeight="24dp"
+        android:padding="@dimen/item_margin"
+        android:text="Value"
+        android:textSize="14sp"
+        tools:ignore="HardcodedText" />
+
+    <ImageView
+        android:id="@+id/itemAction"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/ic_action_arrow_forward" />
+
+</LinearLayout>

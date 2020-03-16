@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    >
+
+
+    <TextView
+        android:id="@+id/rateTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/pd_10"
+        android:text="Rate this user"
+        android:textSize="@dimen/size_h2"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/rateContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/rateTitle"
+        android:foregroundGravity="center_vertical|center"
+        android:gravity="center_vertical|center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/rateEventTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/mg_10"
+            android:gravity="center"
+            android:padding="@dimen/pd_10"
+            android:text="@string/rate_event_txt" />
+
+        <ImageView
+            android:id="@+id/rateTeamLogo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/unknown_profile" />
+
+        <RatingBar
+            android:id="@+id/ratingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:stepSize="1" />
+
+        <Button
+            android:id="@+id/rateBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@id/rateContainer"
+            android:layout_marginTop="@dimen/mg_10"
+            android:background="@drawable/default_btn_bg"
+            android:text="@string/rate"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

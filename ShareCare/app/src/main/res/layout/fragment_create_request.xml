@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_gray"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    >
+
+
+    <include
+        android:id="@+id/progressView"
+        layout="@layout/progress_view"
+        android:visibility="gone"></include>
+
+    <ScrollView
+        android:id="@+id/create_request_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/mg_2"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:padding="@dimen/pd_5">
+
+                <EditText
+                    android:id="@+id/requestTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:gravity="top|left"
+                    android:hint="Title"
+                    android:inputType="textMultiLine"
+                    android:lines="1"
+                    android:padding="@dimen/pd_10"
+                    android:scrollbars="vertical"
+                    android:textSize="16dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/mg_2"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:padding="@dimen/pd_5">
+
+                <EditText
+                    android:id="@+id/request_description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:gravity="top|left"
+                    android:hint="@string/team_description"
+                    android:inputType="textMultiLine"
+                    android:lines="3"
+                    android:padding="@dimen/pd_10"
+                    android:scrollbars="vertical"
+                    android:textSize="16dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/mg_2"
+                android:background="@color/white"
+                android:orientation="horizontal"
+                android:padding="@dimen/pd_5"
+                android:weightSum="2">
+
+                <ImageView
+                    android:id="@+id/arena_icon"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1.8"
+                    android:src="@drawable/ic_stadium_grey" />
+
+                <TextView
+                    android:id="@+id/select_restaurant"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.2"
+                    android:background="@color/white"
+                    android:hint="Select Restaurant"
+                    android:paddingLeft="@dimen/pd_10"
+                    android:textSize="16dp" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/mg_2"
+                    android:layout_marginRight="@dimen/pd_5"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/pd_5"
+                    android:weightSum="2">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1.5"
+                        android:src="@drawable/ic_fee" />
+
+                    <EditText
+                        android:id="@+id/fee"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="0.5"
+                        android:background="@color/white"
+                        android:hint="@string/fee"
+                        android:inputType="numberDecimal"
+                        android:paddingLeft="10dp"
+                        android:textSize="16dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/mg_2"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/pd_5"
+                    android:weightSum="2">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1.5"
+                        android:src="@drawable/ic_team_shirt" />
+
+                    <EditText
+                        android:id="@+id/maxParticipants"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="0.6"
+                        android:background="@color/white"
+                        android:hint="limit"
+                        android:inputType="numberSigned"
+                        android:paddingLeft="@dimen/pd_10"
+                        android:textSize="16dp" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/mg_2"
+                    android:layout_marginRight="@dimen/pd_5"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/pd_5"
+                    android:weightSum="2">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1.5"
+                        android:src="@drawable/ic_access_time_black_24dp" />
+
+                    <TextView
+                        android:id="@+id/request_start_time"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="0.5"
+                        android:background="@color/white"
+                        android:paddingLeft="@dimen/pd_5"
+                        android:text="@string/select_time"
+                        android:textSize="16dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/mg_2"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/pd_5"
+                    android:weightSum="2">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1.5"
+                        android:src="@drawable/ic_calendar" />
+
+                    <TextView
+                        android:id="@+id/request_start_date"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="0.6"
+                        android:background="@color/white"
+                        android:paddingLeft="@dimen/pd_10"
+                        android:text="@string/select_date"
+                        android:textSize="16dp" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/mg_2"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/pd_10"
+                    android:weightSum="2">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1.8"
+                        android:src="@drawable/ic_calendar" />
+
+                    <TextView
+                        android:id="@+id/request_last_date"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="0.6"
+                        android:background="@color/white"
+                        android:paddingLeft="@dimen/pd_10"
+                        android:text="@string/last_application_date"
+                        android:textSize="16dp" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <!--
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/mg_2"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/pd_10"
+                    android:weightSum="2">
+
+                    <Switch
+                        android:id="@+id/add_team_switch"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/add_own_team" />
+
+                </LinearLayout>
+            </LinearLayout>
+            -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/light_gray"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/mg_2"
+                    android:layout_weight="1"
+                    android:background="@color/light_gray"
+                    android:orientation="horizontal"
+
+                    android:padding="@dimen/pd_10"
+                    android:weightSum="2">
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/create_request"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/mg_20"
+                android:layout_marginBottom="@dimen/mg_20"
+                android:background="@drawable/default_btn_bg"
+                android:paddingLeft="@dimen/pd_40"
+                android:paddingRight="@dimen/pd_40"
+                android:text="Create Request"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

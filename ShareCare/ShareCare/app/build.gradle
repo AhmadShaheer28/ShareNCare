@@ -1,0 +1,89 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.1"
+    defaultConfig {
+        applicationId "com.example.sharecare"
+        minSdkVersion 21
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'com.google.firebase:firebase-auth:16.0.5'
+    implementation 'com.google.firebase:firebase-database:16.0.4'
+    implementation 'com.google.firebase:firebase-storage:16.0.4'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test:runner:1.2.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+
+    //circle Image
+
+    implementation 'de.hdodenhof:circleimageview:3.0.1'
+
+    implementation 'com.google.android.material:material:1.1.0-alpha07'
+    implementation 'androidx.preference:preference:1.1.0'
+    implementation 'androidx.browser:browser:1.0.0'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.recyclerview:recyclerview:1.0.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+
+
+    implementation "com.google.android.gms:play-services-location:17.0.0"
+    implementation "com.google.android.gms:play-services-maps:17.0.0"
+    implementation "com.google.android.gms:play-services-places:17.0.0"
+    implementation "com.google.android.gms:play-services-auth:17.0.0"
+
+    implementation 'com.github.bumptech.glide:glide:4.9.0'
+    implementation 'com.fxn769:pix:1.2.5'
+
+    implementation 'com.jakewharton:butterknife:10.1.0'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:10.1.0'
+
+
+    implementation 'com.hbb20:ccp:2.3.4'
+
+    //REST
+    implementation 'com.squareup.retrofit2:retrofit:2.6.1'
+    implementation 'com.squareup.retrofit2:converter-gson:2.6.1'
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.6.0'
+
+    implementation 'com.google.code.gson:gson:2.8.0'
+    implementation 'com.facebook.stetho:stetho:1.5.1'
+    debugImplementation 'com.readystatesoftware.chuck:library:1.1.0'
+    releaseImplementation 'com.readystatesoftware.chuck:library-no-op:1.1.0'
+
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.9.9.1'
+
+    implementation 'com.android.support:multidex:1.0.3'
+
+    //chatSdk
+    compile 'co.chatsdk.chatsdk:chat-sdk-core:4.8.4'
+    compile 'co.chatsdk.chatsdk:chat-sdk-ui:4.8.4'
+    compile 'co.chatsdk.chatsdk:chat-sdk-firebase-adapter:4.8.4'
+    compile 'co.chatsdk.chatsdk:chat-sdk-firebase-file-storage:4.8.4'
+
+
+}
+apply plugin: 'com.google.gms.google-services'

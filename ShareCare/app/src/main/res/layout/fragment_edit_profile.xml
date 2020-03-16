@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/content_match_request"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/light_gray"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <include
+        android:id="@+id/progressView"
+        layout="@layout/progress_view"
+        android:visibility="gone"></include>
+
+    <LinearLayout
+        android:id="@+id/edit_team_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        android:padding="@dimen/mg_5">
+
+
+        <!--
+        <ImageView
+            android:id="@+id/profile_image"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/ic_shield_team" />
+
+        <TextView
+            android:id="@+id/image_url"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/change_logo" />
+            -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:padding="@dimen/mg_5">
+
+            <EditText
+                android:id="@+id/teamNameEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:drawableRight="@drawable/icons8_defense_24"
+                android:gravity="top|left"
+                android:hint="@string/team_name"
+                android:inputType="textMultiLine"
+                android:lines="1"
+                android:padding="@dimen/pd_5"
+                android:scrollbars="vertical"
+                android:textSize="14dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:padding="@dimen/pd_5">
+
+            <EditText
+                android:id="@+id/coachNameEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:drawableRight="@drawable/icons8_user_24"
+                android:gravity="top|left"
+                android:hint="@string/coach_name"
+                android:inputType="textMultiLine"
+                android:lines="1"
+                android:padding="@dimen/mg_5"
+                android:scrollbars="vertical"
+                android:textSize="14dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:padding="@dimen/mg_5">
+
+            <EditText
+                android:id="@+id/phoneNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:drawableRight="@drawable/icons8_phonelink_ring_24"
+                android:gravity="top|left"
+                android:hint="@string/phone_number"
+                android:inputType="phone"
+                android:lines="1"
+                android:padding="@dimen/pd_5"
+                android:scrollbars="vertical"
+                android:textSize="14dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:padding="@dimen/mg_5">
+
+            <EditText
+                android:id="@+id/teamDescriptionEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:gravity="top|left"
+                android:hint="@string/team_description"
+                android:inputType="textMultiLine"
+                android:lines="2"
+                android:padding="@dimen/pd_5"
+                android:scrollbars="vertical"
+                android:textSize="14dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            android:padding="@dimen/mg_5"
+            android:weightSum="2">
+
+            <ImageView
+                android:id="@+id/arena_icon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1.8"
+                android:src="@drawable/ic_stadium_grey" />
+
+            <TextView
+                android:id="@+id/select_restaurant"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.2"
+                android:background="@color/white"
+                android:hint="@string/select_arena"
+                android:paddingLeft="10dp"
+                android:textSize="14dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:padding="@dimen/mg_5">
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:padding="@dimen/mg_5">
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:padding="@dimen/mg_5">
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/saveTeam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/mg_20"
+            android:layout_marginBottom="@dimen/mg_20"
+            android:background="@drawable/default_btn_bg"
+            android:paddingLeft="@dimen/pd_40"
+            android:paddingRight="@dimen/pd_40"
+            android:text="Save"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+</RelativeLayout>

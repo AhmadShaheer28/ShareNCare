@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="?android:attr/actionBarSize"
+
+    >
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical">
+
+
+        <include
+            android:id="@+id/progressView"
+            layout="@layout/progress_view"
+            android:visibility="gone"></include>
+
+
+        <LinearLayout
+            android:id="@+id/list_view_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ListView
+                android:id="@+id/clubListView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/mg_40"
+                android:background="@null" />
+
+            <include
+                android:id="@+id/empty_view"
+                layout="@layout/empty_feedback_view" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

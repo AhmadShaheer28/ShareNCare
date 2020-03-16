@@ -1,0 +1,370 @@
+<resources>
+
+    <string name="facebook_app_id">1910960922504062</string>
+    <string name="fb_login_protocol_scheme" translatable="false">fb1910960922504062</string>
+
+    <string name="app_name">ShareCare</string>
+    <string name="name">Name</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email completions."</string>
+    <string name="title_activity_main">Challenge Now</string>
+
+
+    <string name="chat_not_setup">Chat for this user is not been setup</string>
+    <string name="firebaseid_not_exist">Firebase Id for that team not exist</string>
+    <string name="wiat_for_chat">Please wait! While we load your chat</string>
+
+    <!-- -->
+    <string name="arena">Arena</string>
+    <string name="team_name">Team Name</string>
+
+    <string name="league">League</string>
+    <string name="select_arena">Select arena</string>
+    <string name="select_time">Select time</string>
+    <string name="challengenow">Share n\' Care</string>
+
+    <string name="logout">Log out</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+
+    <!--user & password -->
+    <string name="user_name">Username</string>
+    <string name="change_password">Change password</string>
+    <string name="forgot_password">Forgot password ?</string>
+
+    <!-- prefs -->
+    <string name="language">Language</string>
+    <string name="distance">Distance</string>
+
+    <!-- OnBoarding -->
+
+    <string name="match_List">MATCH LIST</string>
+    <string name="match_List_des">Here you find a list of all available matches that you can choose to accept. You can see which team upload the match, all the information about it and if you want to accept the challenge.</string>
+
+    <string name="invite_Team">Invite Teams for a footballgame!</string>
+    <string name="invite_Team_des">Create an match that any team in your league can choose to accept. You can create multiple matches for the whole season!</string>
+
+    <string name="team_List">TEAM LIST</string>
+    <string name="team_List_des">Here you find all the available teams in your league.You can challenge them directly from here or chat with them if you would like to.</string>
+
+    <string name="tournament_List">See all Tournament available</string>
+    <string name="tournament_List_des">See if there are any Tournaments available for your team to apply for. You can pay directly through our app and guarantee your spot immediately.</string>
+
+    <string name="switch_Team">Have more than one Team?</string>
+    <string name="switch_Team_des">You can add and manage multiple teams in our app. No matter what gender or age they are in.</string>
+
+    <string name="add_team">Add your new team.</string>
+
+    <string name="add_tournament">Make your own Tournament</string>
+    <string name="add_tournament_des">Create a Tournament and earn some money. Choose how big or small you want your tournament to be and how much it will cost for teams to participate, everything is up to you. Team pay directly in the app</string>
+
+    <!-- Team -->
+
+    <string name="history">History</string>
+    <string name="register">Sign up</string>
+
+
+    <!-- Error -->
+    <string name="error_occured">Error occurred</string>
+
+    <!-- menu -->
+    <string name="created_new_challenge">Created new challenge</string>
+    <string name="profile">Profile</string>
+    <string name="tournament">Tournament</string>
+    <string name="create_new_team">Create new team</string>
+    <string name="geopoint">Location</string>
+    <string name="update">Update</string>
+    <string name="played">Played</string>
+    <string name="revoke">Revoke</string>
+    <string name="reject">Reject</string>
+    <string name="country">Country</string>
+    <string name="team_description">Description</string>
+    <string name="select_league">Select league</string>
+    <string name="info">info</string>
+    <string name="teams">Participants</string>
+    <string name="join">Join</string>
+    <string name="joined">Joined</string>
+    <string name="fee">Fee</string>
+    <string name="pending">Pending</string>
+    <string name="upcoming">Upcoming</string>
+    <string name="message">Message</string>
+    <string name="club_name">Club</string>
+    <string name="no_team_registered">No team is registered</string>
+    <string name="distance_unknown">Distance unknown</string>
+    <string name="activate_gps">Activate GPS</string>
+    <string name="activate_gps_message">GPS must be activated</string>
+    <string name="min_search_char_text">Your search query must not be less than 3 characters</string>
+    <string name="share_subject_default">I have joined Challenge Now, join and accept my challenge download the app from www.challengenow.se</string>
+    <string name="share_link_too">Share link too..</string>
+    <string name="accept">Accept</string>
+    <string name="user_already_exists">User %1$s already exists, if this is your account please login with your credentials</string>
+    <string name="firebase_invite_message">%1$s have invited you to join ChallengeNow. Download from here www.challengenow.se</string>
+    <string name="version">Version</string>
+    <string name="find_arena">Find Restaurant</string>
+    <string name="home_arena">Home arena</string>
+    <string name="find_directions">Find directions</string>
+    <string name="select_as_home_arena">Select as home arena</string>
+    <string name="show_list">View list</string>
+    <string name="show_map">View map</string>
+    <string name="loading">Loading..</string>
+    <string name="no_data_available">No results</string>
+    <string name="search_range_distance">Search range</string>
+    <string name="accept_challenge">Accept Challenge</string>
+    <string name="away_team">Away team</string>
+    <string name="chat">Chat</string>
+    <string name="home_team">Home team</string>
+    <string name="my_matches">Matches</string>
+    <string name="create_open">Open for all</string>
+    <string name="select_date">Select date</string>
+    <string name="error_select_date_and_time_and_location">Select date,time and location</string>
+    <string name="share_with_friend">Invite friend</string>
+    <string name="no_open_games_near_you">There is no open games near you.</string>
+    <string name="my_open_matches_created">My open games</string>
+    <string name="add">Add</string>
+
+
+    <string name="signup_heading">ChallengeNow</string>
+    <string name="signup_slogan">Don’t limit your challenges, challenge your limits</string>
+    <string name="signup">SIGN UP</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="already_have_an_account">Already have an account ?</string>
+    <string name="sign_in"><u>SIGN IN</u></string>
+
+
+    <string name="title_activity_register">Sign up</string>
+
+
+    <string name="search_club_by_name">Search club</string>
+
+    <string name="reset_password">Reset password</string>
+
+
+    <string name="confirm_password_mismatch">Password mismatch</string>
+    <string name="club_mail">Club\'s mail</string>
+    <string name="register_club">Register club</string>
+    <string name="no_account_signup">No account? Sign up here</string>
+    <string name="create_account">CREATE ACCOUNT</string>
+    <string name="login">Login</string>
+    <string name="adding_place">Add arena</string>
+    <string name="location_added">Place added</string>
+    <string name="error_location_add">Error occurer when adding location</string>
+    <string name="error_server_unreachable">Sorry our service is not reachable</string>
+    <string name="user_signup_successfully">Username registered</string>
+    <string name="user_login_successful">User logged in successful</string>
+    <string name="facebook_login_failed">Failed too login with Facebook</string>
+    <string name="failed_too_login_with_google">Failed too login with Google</string>
+    <string name="facebook_login_successful">Facebook login successful</string>
+    <string name="facebook_enable_email_permission">Facebook email permission is missing, please enable this permission too continue</string>
+    <string name="last_application_date">Last join date</string>
+    <string name="facebook_connected">Facebook connected</string>
+    <string name="facebook_connect">Connect to Facebook</string>
+    <string name="google_connected">Google connected</string>
+    <string name="google_connect">Connect to Google</string>
+    <string name="google_account_already_connected">Google is already connected too your account</string>
+    <string name="facebook_account_already_connected">Facebook is already connected too your account</string>
+    <string name="password_too_short">Password is too short minum is six letters</string>
+    <string name="signin_and_connect_with_provider"> An account already exists with the same email address but different sign-in credentials. Sign in using a provider associated with this email address</string>
+    <string name="no_open_games_created">You have not created any open games</string>
+    <string name="no_pending_games">You have not any pending games</string>
+    <string name="no_upcoming_matches">You have no upcoming games</string>
+    <string name="no_match_history">You have not played any matches</string>
+    <string name="create_new_challenge">Create new challenge</string>
+    <string name="challenge_qoute_limt">Don\'t limit your challenges, challenge your limits</string>
+    <string name="confirm_action">Are you sure you want to ?</string>
+    <string name="cancel_match">%1$s this match</string>
+    <string name="continue_with_google">Continue with Google</string>
+    <string name="continue_with_facebook">Continue with Facebook</string>
+    <string name="chat_disabled_for_open_request">Chat is disabled for open request</string>
+    <string name="no_teams_found">No teams found</string>
+    <string name="invite_team">Invite teams</string>
+    <string name="empty_serie_invite_call">Sorry your league is empty, please invite a new team and help us grow this league</string>
+    <string name="no_teams_found_text">Sorry couldn\'t find what you looking for, feel free to invite more teams to help us grow this league</string>
+    <string name="select_team">Select team</string>
+    <string name="my_league">My League</string>
+    <string name="my_teams">My teams</string>
+    <string name="no_tournaments_available">There are no tournaments available</string>
+    <string name="find">Find</string>
+    <string name="not_participate_tournaments">You have not joined any tournaments</string>
+    <string name="invite_team_call">Invite teams and help us grow</string>
+    <string name="no_description">No description</string>
+    <string name="register_team">Register team</string>
+    <string name="challenge">Challenge</string>
+    <string name="created_games">Open games</string>
+    <string name="spots">spots</string>
+    <string name="start_date">Start date</string>
+    <string name="status">Status</string>
+    <string name="accepted">Accepted</string>
+    <string name="create_open_for_all_challenge">Create an open challenge</string>
+    <string name="about_us">About us</string>
+    <string name="share_app">Share app with social apps</string>
+    <string name="notification_email_setting">Email notification</string>
+    <string name="notification_push_setting">Push notification</string>
+    <string name="active">Active</string>
+    <string name="disabled">Disabled</string>
+    <string name="settings">Settings</string>
+    <string name="select_club">Select club</string>
+    <string name="registered">Registered</string>
+    <string name="no_matches_found">No matches found near you</string>
+    <string name="can_not_join">Can not join</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="this_match_have_not_taken_place_yet">This match has not taken place yet</string>
+    <string name="add_club">Add club</string>
+    <string name="coach_name">Coach</string>
+    <string name="contact">Contact</string>
+    <string name="edit">Edit</string>
+    <string name="copied_to_clipboard">Copied to clipboard</string>
+    <string name="create_tournament">Create Tournament</string>
+    <string name="click_here_to_rate_this_match">Rate this match</string>
+    <string name="rate_event_txt">RateEvent</string>
+    <string name="rate_this_team">Rate this team</string>
+    <string name="payment">Payment</string>
+    <string name="pay_now">Pay now</string>
+    <string name="confirmed">Confirmed</string>
+    <string name="amount_to_pay">Amount</string>
+    <string name="payment_processing">Payment processing..</string>
+    <string name="switch_team_confirmation">Switch team to </string>
+    <string name="swish_not_installed">Swish not installed can\'t process further with payment</string>
+    <string name="debug_info">Debug info</string>
+    <string name="rate">Rate</string>
+    <string name="team_exp">EXP</string>
+    <string name="no_club_found">No club found</string>
+    <string name="could_not_find_club">Could not find your club ?</string>
+    <string name="tournament_invalid">Tournament form invalid</string>
+    <string name="created_tournaments">Created</string>
+    <string name="registration_closed">registration is closed</string>
+    <string name="payment_declined">Payment declined</string>
+    <string name="pay_with_swish">Pay with Swish</string>
+    <string name="complete_your_profile">Incomplete profile you must provide contact info before you can create a match or a tournament.</string>
+    <string name="service_charge_info">Service charge info</string>
+    <string name="swish_not_initiated">Failed to start Swish can not proceed with payment</string>
+    <string name="swish_payment_request_error">Error occurred when creating payment request</string>
+    <string name="swish_payment_request_processing">Swish payment processing</string>
+    <string name="swish_payment_request_status_error">\"Failed to process payment for paymentId with id</string>
+    <string name="swish_payment_paid">Payment has been paid</string>
+    <string name="swish_payment_declined">Payment declined please try again</string>
+    <string name="swish_payment_error">Error occurred with payment please try again later.</string>
+    <string name="payment_swish_processing_error">Error occurred while processing payment no response from server</string>
+    <string name="published">Published</string>
+    <string name="not_published">Not published</string>
+    <string name="cancel_tournament">Tournament participation canceled.</string>
+    <string name="publish">Publish</string>
+    <string name="tournament_is_full">Tournament is full</string>
+    <string name="slot_reserved_for_tournament_pay_within_24hours">a slot has been reserved please pay within 24 hours</string>
+    <string name="you_are_already_in_tournament">You are already a member</string>
+    <string name="free_tournament_no_service_charge_applied">Free tournament created no service charges is applied</string>
+    <string name="spots_left">spots left</string>
+    <string name="spot_left">spot left</string>
+    <string name="tournament_full">tournament full</string>
+    <string name="days_left">days left to apply</string>
+    <string name="day_left">day left to apply</string>
+    <string name="last_day_to_apply">last day to apply</string>
+    <string name="last_day_to_publish_passed">last day to publish passed</string>
+    <string name="pay_to_publish">Pay to publish your tournament</string>
+    <string name="service_charge_for_paid_tournaments">A service charge will apply %1$s and %2$s will be deducted from participant fee. Free tournaments with no participant fee will be free of charge to publish.</string>
+    <string name="terms_and_conditions_tournament">I agree to ChallengeNow <u>Terms of Purchase</u></string>
+    <string name="no_tournaments_created">You have not created any tournaments</string>
+    <string name="no_tournaments_applied">You have not applied to any tournaments</string>
+    <string name="confirmed_requests_cant_be_revoked">Your request cant be revoked. Please contact organizer directly.</string>
+    <string name="start_date_earlier_than_last_application_date">Last application date must be earlier than startdate</string>
+    <string name="lorem_ipsum">Lorem Ipsum är en utfyllnadstext från tryck- och förlagsindustrin. Lorem ipsum har varit standard ända sedan 1500-talet, när en okänd boksättare tog att antal bokstäver och blandade dem för att göra ett provexemplar av en bok.</string>
+    <string name="link">Read more</string>
+    <string name="deeplink_firebase_test">https://challengenowtest.page.link</string>
+    <string name="reset_password_successful">We have sent you instructions to reset your password!</string>
+    <string name="prompt_email_registred">Enter your registered email id</string>
+    <string name="statistics">statistics</string>
+    <string name="send_verification_mail">Sign up successful please check verification mail.</string>
+    <string name="no_rating">None</string>
+    <string name="please_verify_your_account">Please verify your email.</string>
+    <string name="chat_match">Match</string>
+    <string name="chat_serie">League</string>
+    <string name="chat_tournament">Tournament</string>
+    <string name="chat_team">Team</string>
+    <string name="team_has_no_open_games">Team has no open games</string>
+    <string name="rating">rating</string>
+    <string name="experience">EXP</string>
+    <string name="instagram">Instagram</string>
+    <string name="website_url">Homepage</string>
+    <string name="facebook">Facebook</string>
+    <string name="social_media">Social media</string>
+    <string name="verification">code</string>
+    <string name="phone_number_hint">0300 1234567</string>
+    <string name="verify">Verify</string>
+    <string name="empty_conversation">No conversations</string>
+    <string name="verify_your_number">Verify your number</string>
+    <string name="please_verify_your_phone_number">Please verify phonenumber by entering code</string>
+    <string name="invalid_phone_verification_code">Invalid sms code entered</string>
+    <string name="phone_number">Phone</string>
+    <string name="phone_number_invalid_format">Phone number is in invalid format. Please use this format +4671234567890</string>
+    <string name="sms_verification">sms code</string>
+    <string name="change_logo">Change Logo</string>
+    <string name="delete_team">Delete team %1$s</string>
+    <string name="verify_your_email">Verify your email</string>
+
+    <string name="error_username_or_password">Wrong username or password</string>
+    <string name="error_access_token_missing">Error missing accessToken from server</string>
+    <string name="intro_welcome_title">Welcome to ChallengeNow!</string>
+    <string name="intro_create_matches_title">Find and create Matches</string>
+    <string name="intro_profile_title">Profile</string>
+    <!-- -->
+
+    <string name="intro_tournaments_title">Tournaments</string>
+    <string name="intro_welcome_description"><![CDATA[Find new matches, New places to play on
+& New teams to challenge on your terms]]></string>
+    <string name="intro_create_matches_description"><![CDATA[Look for football matches to play through our match list or create your own matches on your terms that other teams can accept.]]></string>
+    <string name="intro_tournaments_description"><![CDATA[Search for tournaments that your team can sign up for or create your own tournament, wait for the teams and get pay directly through the app.]]></string>
+
+    <string name="intro_profile_description"><![CDATA[Tell us about your team, what level you play in
+What days and times you have training, when you are available, etc.
+Information that is good for other teams to know.]]></string>
+    <string name="intro_thank_you">We hope you will enjoy ChallengeNow!</string>
+    <string name="intro_thank_you_title">Thank you!</string>
+    <string name="field_not_in_range">Field not in range must be between %1$d and %2$d</string>
+    <string-array name="week_days_values">
+        <item>MONDAY</item>
+        <item>TUESDAY</item>
+        <item>WEDNESDAY</item>
+        <item>THURSDAY</item>
+        <item>FRIDAY</item>
+        <item>SATURDAY</item>
+        <item>SUNDAY</item>
+    </string-array>
+    <string-array name="array_distance_ranges">
+        <item>5</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>50</item>
+        <item>100</item>
+        <item>200</item>
+        <item>500</item>
+        <item>1000</item>
+        <item>2000</item>
+        <item>5000</item>
+        <item>10000</item>
+    </string-array>
+    <string-array name="array_distance_ranges_values">
+        <item>5 km</item>
+        <item>10 km</item>
+        <item>20 km</item>
+        <item>30 km</item>
+        <item>50 km</item>
+        <item>100 km</item>
+        <item>200 km</item>
+        <item>500 km</item>
+        <item>1000 km</item>
+        <item>2000 km</item>
+        <item>5000 km</item>
+        <item>10000 km</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/ic_person"
+        android:title="@string/profile" />
+
+    <item
+        android:id="@+id/my_league"
+        android:icon="@drawable/ic_restarants"
+        android:title="Restaurants" />
+
+    <item
+        android:id="@+id/challenges"
+        android:icon="@drawable/ic_food"
+        android:title="Food" />
+
+
+    <item
+        android:id="@+id/tournament"
+        android:icon="@drawable/ic_library_books"
+        android:title="Books" />
+
+
+    <item
+        android:id="@+id/messages"
+        android:icon="@drawable/ic_chat"
+        android:title="@string/chat" />
+</menu>

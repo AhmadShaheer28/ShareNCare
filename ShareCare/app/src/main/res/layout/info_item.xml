@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/mg_5"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:minHeight="32dp"
+        android:padding="@dimen/pd_10"
+        android:weightSum="3">
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_gravity="center"
+            android:layout_weight="1.3"
+            android:src="@drawable/unknown_profile" />
+
+        <TextView
+            android:id="@+id/keyValueItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.7"
+            android:paddingLeft="@dimen/pd_5"
+            android:text="P07"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/size_normal" />
+
+        <TextView
+            android:id="@+id/keyRowItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:paddingRight="@dimen/pd_5"
+            android:text="@string/league"
+            android:textSize="@dimen/size_10" />
+
+        <ImageView
+            android:id="@+id/itemAction"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:layout_weight="1.3"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_action_arrow_forward" />
+
+    </LinearLayout>
+
+</LinearLayout>

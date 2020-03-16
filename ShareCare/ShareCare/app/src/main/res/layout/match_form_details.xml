@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/light_gray"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            android:padding="@dimen/pd_5"
+            android:weightSum="2">
+
+            <ImageView
+                android:id="@+id/arena_icon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1.8"
+                android:src="@drawable/ic_stadium_grey" />
+
+            <TextView
+                android:id="@+id/select_arena"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.2"
+                android:background="@color/white"
+                android:hint="@string/select_arena"
+                android:paddingLeft="@dimen/pd_5"
+                android:textSize="16dp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="@dimen/pd_5"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:orientation="horizontal"
+                android:padding="@dimen/pd_5"
+                android:weightSum="2">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+
+                    android:layout_weight="1.5"
+                    android:src="@drawable/ic_calendar" />
+
+                <TextView
+                    android:id="@+id/select_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.6"
+                    android:background="@color/white"
+                    android:paddingLeft="@dimen/pd_5"
+                    android:text="@string/select_date"
+                    android:textSize="16dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:orientation="horizontal"
+                android:padding="@dimen/pd_5"
+                android:weightSum="2">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1.5"
+                    android:src="@drawable/ic_access_time_black_24dp" />
+
+                <TextView
+                    android:id="@+id/select_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.5"
+                    android:background="@color/white"
+                    android:paddingLeft="@dimen/pd_5"
+                    android:text="@string/select_time"
+                    android:textSize="16dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:padding="@dimen/pd_5">
+
+            <EditText
+                android:id="@+id/match_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:gravity="top|left"
+                android:hint="@string/message"
+                android:inputType="textMultiLine"
+                android:lines="3"
+                android:padding="@dimen/pd_5"
+                android:scrollbars="vertical"
+                android:textSize="16dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            android:padding="@dimen/pd_5"
+            android:weightSum="2">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1.8"
+                android:src="@drawable/ic_info" />
+
+            <TextView
+                android:id="@+id/statusTxtView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.2"
+                android:background="@color/white"
+                android:hint="@string/status"
+                android:paddingLeft="@dimen/pd_5"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

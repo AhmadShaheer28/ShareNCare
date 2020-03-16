@@ -1,0 +1,103 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <include
+        android:id="@+id/progressView"
+        layout="@layout/progress_view"
+        android:visibility="gone"></include>
+
+
+    <LinearLayout
+        android:id="@+id/createClubView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/register_club"
+            android:textColor="@color/primary"
+            android:textSize="@dimen/size_h1"
+            android:textStyle="bold" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:weightSum="2">
+
+            <ImageView
+                android:id="@+id/arena_icon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1.8"
+                android:src="@drawable/ic_shield_team" />
+
+            <EditText
+                android:id="@+id/clubName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.2"
+                android:background="@color/white"
+                android:hint="@string/club_name"
+                android:paddingLeft="10dp"
+                android:textSize="16dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:weightSum="2">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1.8"
+                android:src="@drawable/ic_mail_notification" />
+
+            <EditText
+                android:id="@+id/club_mail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.2"
+                android:background="@color/white"
+                android:hint="@string/club_mail"
+                android:paddingLeft="10dp"
+                android:textSize="16dp" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/createClubBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/mg_10"
+            android:background="@drawable/default_btn_bg"
+            android:text="@string/add_club"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</RelativeLayout>

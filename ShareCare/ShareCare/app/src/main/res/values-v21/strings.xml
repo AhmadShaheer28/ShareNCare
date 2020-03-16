@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="complete_your_profile">Incomplete profile you must provide contactinfo before you can create tournament.</string>
+    <string name="start_date_earlier_than_last_application_date">Last application date must be earlier than startdate</string>
+    <string name="empty_conversation">No conversations</string>
+    <string name="verify_your_email">Verify your email</string>
+</resources>

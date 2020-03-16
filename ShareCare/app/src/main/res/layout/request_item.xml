@@ -1,0 +1,149 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:elevation="2dp"
+        android:visibility="visible"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="@dimen/cardview_default_elevation"
+        app:cardElevation="2dp"
+        app:cardUseCompatPadding="true"
+        app:contentPadding="2dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorWhite"
+            android:orientation="vertical"
+            android:paddingTop="@dimen/mg_2"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/pd_10"
+                android:paddingRight="@dimen/pd_10">
+
+                <ImageView
+                    android:id="@+id/clientLogo"
+                    android:layout_width="@dimen/logo_size_large"
+                    android:layout_height="@dimen/logo_size_large"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_8" />
+
+                <TextView
+                    android:id="@+id/requestTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/mg_2"
+                    android:gravity="center"
+                    android:text="@string/tournament"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/size_h2" />
+
+                <TextView
+                    android:id="@+id/startDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/mg_2"
+                    android:gravity="center"
+                    android:text="Jan 01, 2018 - 06:25 PM"
+                    android:textSize="@dimen/size_10" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/mg_2"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.8"
+                        android:orientation="horizontal"
+                        android:weightSum="2">
+
+
+                        <TextView
+                            android:id="@+id/locationName"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:layout_weight="1.7"
+
+                            android:drawableStart="@drawable/ic_stadium"
+                            android:gravity="left|center_vertical"
+                            android:text="Anfield, London"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/size_10" />
+
+                        <TextView
+                            android:id="@+id/distance"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="0.2"
+                            android:gravity="end"
+                            android:text="200 km"
+                            android:textSize="@dimen/size_10" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="@dimen/mg_2"
+                android:background="@color/light_gray" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="@dimen/pd_5"
+                android:paddingLeft="@dimen/pd_5"
+                android:paddingBottom="@dimen/pd_5"
+                android:paddingRight="@dimen/pd_10"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/item_publish_status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/status" />
+
+                <TextView
+                    android:id="@+id/spot"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="end"
+                    android:layout_weight="1"
+                    android:text="1 spots left"
+                    android:textColor="@color/colorPrimaryDark" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

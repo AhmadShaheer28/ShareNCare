@@ -1,0 +1,218 @@
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/light_gray"
+
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/mg_5"
+            android:background="@color/light_gray"
+            android:orientation="vertical"
+            android:padding="@dimen/pd_5"
+            android:weightSum="2">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/team_description"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/mg_5"
+
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada ex ut pellentesque eleifend. In velit purus, sodales a condimentum ac, posuere id dui. Integer eleifend ullamcorper ex, pellentesque eleifend. In velit purus."
+                android:textColor="@color/black"
+                android:textSize="@dimen/size_10" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/mg_5"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            android:padding="@dimen/pd_5"
+            android:weightSum="3">
+
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1.3"
+                android:src="@drawable/ic_coach" />
+
+            <TextView
+
+                android:id="@+id/coachNameTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.7"
+                android:paddingLeft="@dimen/pd_5"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/size_normal" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:paddingRight="@dimen/pd_5"
+                android:text="@string/coach_name"
+                android:textSize="@dimen/size_10" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/mg_5"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            android:padding="@dimen/pd_5"
+            android:weightSum="3">
+
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1.3"
+                android:src="@drawable/ic_phone" />
+
+            <TextView
+
+                android:id="@+id/contactNameTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.7"
+                android:paddingLeft="@dimen/pd_5"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/size_normal" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:paddingRight="@dimen/pd_5"
+                android:text="@string/contact"
+                android:textSize="@dimen/size_10" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/mg_5"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            android:padding="@dimen/pd_5"
+            android:weightSum="3">
+
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1.3"
+                android:src="@drawable/tab_league" />
+
+            <TextView
+
+                android:id="@+id/leagueNameTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.7"
+                android:paddingLeft="@dimen/pd_5"
+                android:text="@string/league"
+                android:textColor="@color/black"
+                android:textSize="@dimen/size_normal" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:paddingRight="@dimen/pd_5"
+                android:text="@string/league"
+                android:textSize="@dimen/size_10" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/mg_5"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            android:padding="@dimen/pd_5"
+            android:weightSum="3">
+
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1.3"
+                android:src="@drawable/ic_distance_pin" />
+
+            <TextView
+
+                android:id="@+id/venueNameTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.7"
+                android:paddingLeft="@dimen/pd_5"
+                android:text="@string/arena"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/size_normal" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:paddingRight="@dimen/pd_5"
+                android:text="@string/arena"
+                android:textSize="@dimen/size_10" />
+
+        </LinearLayout>
+
+        <include
+            android:id="@+id/empty_view"
+            layout="@layout/social_media" />
+
+    </LinearLayout>
+
+
+</androidx.core.widget.NestedScrollView>

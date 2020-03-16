@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/settings"
+        android:icon="@drawable/ic_settings_icon"
+        android:title="@string/settings" />
+
+    <item
+        android:id="@+id/arena_map"
+        android:icon="@drawable/tab_fields"
+        android:title="@string/find_arena" />
+
+
+    <item
+        android:id="@+id/share"
+        android:icon="@drawable/ic_share_grey"
+        android:title="@string/share_with_friend" />
+
+
+    <item
+        android:id="@+id/logout"
+        android:icon="@drawable/ic_action_lock_open"
+        android:title="@string/logout" />
+</menu>

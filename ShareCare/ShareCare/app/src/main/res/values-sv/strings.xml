@@ -1,0 +1,335 @@
+<resources>
+
+
+    <string name="facebook_app_id">1910960922504062</string>
+    <string name="facebook_connect">Koppla till Facebook</string>
+
+
+    <string name="app_name">ShareCare</string>
+    <string name="name">Namn</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Epost</string>
+    <string name="action_sign_in_short">Logga in</string>
+    <string name="error_invalid_email">Epost ej korrekt</string>
+    <string name="error_invalid_password">Lösenordet är för kort</string>
+    <string name="error_incorrect_password">Lösenord felaktigt</string>
+    <string name="error_field_required">Obligatoriskt fält</string>
+    <string name="error_location_add">Kunde ej lägga till plats</string>
+    <string name="error_server_unreachable">ChallengeNow Server är just nu ej tillgängligt försök igen senare</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing emailcompletions."</string>
+    <string name="title_activity_main">Challenge Now</string>
+
+
+    <!-- -->
+    <string name="arena">Arena</string>
+    <string name="team_name">Lagnamn</string>
+    <string name="league">Liga</string>
+    <string name="select_arena">Välj arena</string>
+    <string name="select_time">Välj tid</string>
+    <string name="challengenow">ChallengeNow</string>
+
+
+    <string name="logout">Logga ut</string>
+    <string name="cancel">Avboka</string>
+    <string name="ok">OK</string>
+    <!--user & password -->
+    <string name="user_name">Användarnamn</string>
+    <string name="change_password">Ändra lösenord</string>
+    <string name="forgot_password">Glömt lösenord ?</string>
+
+    <!-- prefs -->
+    <string name="language">Språk</string>
+    <string name="distance">Avstånd</string>
+
+    <string name="history">Historik</string>
+    <string name="register">Registrera</string>
+
+
+    <string name="error_occured">Ett tekniskt fel har inträffat</string>
+
+    <string name="profile">Profil</string>
+    <string name="geopoint">Plats</string>
+    <string name="tournament">Cuper</string>
+    <string name="create_new_team">Skapa nytt lag</string>
+    <string name="update">Uppdatera</string>
+    <string name="played">Spelat</string>
+    <string name="revoke">Avboka</string>
+    <string name="country">Land</string>
+    <string name="reject">Avvisa</string>
+    <string name="user_signup_successfully">Användare registrerad</string>
+    <string name="team_description">Beskrivning</string>
+    <string name="created_new_challenge">Skapat ny match</string>
+    <string name="pending">Obekräftade</string>
+    <string name="upcoming">Kommande</string>
+    <string name="message">Meddelande</string>
+    <string name="select_league">Välj Liga</string>
+    <string name="info">Info</string>
+    <string name="teams">Lag</string>
+    <string name="join">Anmäl</string>
+    <string name="joined">Anmäld</string>
+    <string name="fee">Avgift</string>
+    <string name="club_name">Klubb</string>
+    <string name="no_team_registered">Inget lag är registrerad</string>
+    <string name="distance_unknown">Avstånd saknas</string>
+    <string name="activate_gps">Aktivera positionering</string>
+    <string name="activate_gps_message">Positionering behöver aktiveras för appen</string>
+    <string name="min_search_char_text">Ange minst 3 tecken</string>
+    <string name="share_subject_default">Jag har gått med i ChallengeNow, Gå med du också och anta utmaningen. Ladda ner appen från www.challengenow.se</string>
+    <string name="firebase_invite_message">Du har fått en inbjudan att gå med i ChallengeNow från %1$s</string>
+    <string name="share_link_too">Dela länk med</string>
+    <string name="share_with_friend">Tipsa en vän</string>
+    <string name="accept">Acceptera</string>
+    <string name="user_already_exists">Användaren %1$s finns redan, Logga in med din befintliga konto</string>
+    <string name="find_arena">Hitta fotbollsplan</string>
+    <string name="home_arena">Hemma plan</string>
+    <string name="find_directions">Hitta hit</string>
+    <string name="select_as_home_arena">Välj som hemmaplan</string>
+    <string name="show_list">Visa lista</string>
+    <string name="show_map">Visa karta</string>
+    <string name="version">Version</string>
+    <string name="loading">Laddar..</string>
+    <string name="no_data_available">Ingen resultat</string>
+    <string name="search_range_distance">Sök radie </string>
+    <string name="accept_challenge">Accept Challenge</string>
+    <string name="away_team">Borta lag</string>
+    <string name="chat">Meddelande</string>
+    <string name="home_team">Hemma lag</string>
+    <string name="my_matches">Matcher</string>
+    <string name="create_open">Öppen för alla</string>
+    <string name="select_date">Välj datum</string>
+    <string name="error_select_date_and_time_and_location">Du måste ange tid,datum och arena</string>
+    <string name="no_open_games_near_you">Det finns inga öppna matcher i närheten</string>
+    <string name="my_open_matches_created">Mina öppna</string>
+    <string name="add">Lägg till</string>
+    <string name="search_club_by_name">Sök din klubb</string>
+    <string name="reset_password">Återställ lösenord</string>
+    <string name="confirm_password_mismatch">Lösenord stämmer ej med bekräfta lösenord</string>
+    <string name="club_mail">Epost till klubben</string>
+    <string name="register_club">Registrera din klubb eller förening</string>
+    <string name="no_account_signup">Inget konto ? Registrera dig här</string>
+    <string name="create_account">Skapa konto</string>
+    <string name="login">Logga in</string>
+    <string name="adding_place">Lägg till plats</string>
+    <string name="location_added">Din plats har lagts till</string>
+    <string name="title_activity_register">Registrera dig</string>
+    <string name="user_login_successful">Användare loggades in</string>
+    <string name="facebook_login_failed">Inloggning med Facebook misslyckades</string>
+    <string name="failed_too_login_with_google">Inloggning med Google misslyckades</string>
+    <string name="facebook_login_successful">Inloggad med Facebook</string>
+    <string name="facebook_enable_email_permission">Åtkomst av epost är nödvändigt för registrering</string>
+    <string name="last_application_date">Sista ansökningsdag</string>
+    <string name="facebook_connected">Facebook länkat</string>
+    <string name="google_connected">Google länkat</string>
+    <string name="google_connect">Koppla till Google</string>
+    <string name="google_account_already_connected">Google är redan länkat till kontot</string>
+    <string name="facebook_account_already_connected">Facebook är redan länkat till ditt konto</string>
+    <string name="password_too_short">Lösenord är för kort ange minst 6 bokstäver</string>
+    <string name="signin_and_connect_with_provider">Du har redan ett konto med en annan inloggningsmetod, du kan byta inloggningsätt genom att först logga in</string>
+    <string name="no_open_games_created">Du har inte skapat några öppna utmaningar</string>
+    <string name="no_pending_games">Du har inte skickat några utmaningar</string>
+    <string name="no_upcoming_matches">Du har inga kommande matcher</string>
+    <string name="no_match_history">Du har inte spelat några matcher</string>
+    <string name="create_new_challenge">Skapa ny utmaning</string>
+    <string name="confirm_action">" Är du säker på att du vill ?"</string>
+    <string name="cancel_match">%1$s denna match</string>
+    <string name="challenge_qoute_limt">Don\'t limit your challenges, challenge your limits</string>
+    <string name="continue_with_google">Fortsätt med Google</string>
+    <string name="continue_with_facebook">Fortsätt med Facebook</string>
+    <string name="chat_disabled_for_open_request">Meddelande funktionen är avstängd för öppen utmaning</string>
+    <string name="no_teams_found">Hittade inga lag</string>
+    <string name="invite_team">Bjud in lag</string>
+    <string name="empty_serie_invite_call">Din liga har inga lag än, hjälp oss att växa genom att bjuda in flera lag</string>
+    <string name="no_teams_found_text">Din sökning gav ingen resultat, Bjud gärna in flera lag</string>
+    <string name="select_team">Välj lag</string>
+    <string name="my_league">Min Liga</string>
+    <string name="my_teams">Mina lag</string>
+    <string name="no_tournaments_available">Just nu hittar vi inga cuper nära dig</string>
+    <string name="find">Hitta</string>
+    <string name="not_participate_tournaments">Du har inte anmält dig till några cuper</string>
+    <string name="invite_team_call">Hjälp oss att växa, bjud in fler lag.</string>
+    <string name="no_description">Ingen beskrivning</string>
+    <string name="register_team">Registrera lag</string>
+
+    <string-array name="array_distance_ranges">
+        <item>5</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>50</item>
+        <item>100</item>
+        <item>200</item>
+        <item>500</item>
+        <item>1000</item>
+        <item>2000</item>
+        <item>5000</item>
+        <item>10000</item>
+    </string-array>
+
+    <string-array name="array_distance_ranges_values">
+        <item>5 km</item>
+        <item>10 km</item>
+        <item>20 km</item>
+        <item>30 km</item>
+        <item>50 km</item>
+        <item>100 km</item>
+        <item>200 km</item>
+        <item>500 km</item>
+        <item>1000 km</item>
+        <item>2000 km</item>
+        <item>5000 km</item>
+        <item>10000 km</item>
+    </string-array>
+
+
+    <string-array name="week_days_values">
+        <item>Måndag</item>
+        <item>Tisdag</item>
+        <item>Onsdag</item>
+        <item>Torsdag</item>
+        <item>Fredag</item>
+        <item>Lördag</item>
+        <item>Söndag</item>
+    </string-array>
+    <string name="signup_slogan">Don’t limit your challenges, challenge your limits</string>
+    <string name="signup_heading">ChallengeNow</string>
+    <string name="signup">Registerera</string>
+    <string name="hint_email">Epost</string>
+    <string name="hint_password">Lösenord</string>
+    <string name="already_have_an_account">Har redan ett konto</string>
+    <string name="sign_in">Logga in</string>
+    <string name="challenge">Challenge</string>
+    <string name="created_games">Öppna matcher</string>
+    <string name="spots">Platser kvar</string>
+    <string name="start_date">Start datum</string>
+    <string name="status">Status</string>
+    <string name="accepted">Accepterad</string>
+    <string name="create_open_for_all_challenge">Skapa en öppen utmaning</string>
+    <string name="about_us">Om ChallengeNow</string>
+    <string name="share_app">Dela denna app</string>
+    <string name="notification_email_setting">Epost notis</string>
+    <string name="notification_push_setting">Push notis</string>
+    <string name="active">Aktiv</string>
+    <string name="disabled">Inaktiv</string>
+    <string name="settings">Inställningar</string>
+    <string name="select_club">Välj klubb</string>
+    <string name="registered">Registrerade</string>
+    <string name="no_matches_found">Inga matcher hittades nära dig.</string>
+    <string name="can_not_join">"Kan inte "</string>
+    <string name="confirm_password">Bekräfta lösenord</string>
+    <string name="this_match_have_not_taken_place_yet">Denna match har inte ägt rum än och kan ej ändra status</string>
+    <string name="add_club">Lägg till klubb</string>
+    <string name="coach_name">Tränare</string>
+    <string name="contact">Kontakt</string>
+    <string name="edit">Redigera</string>
+    <string name="copied_to_clipboard">Kopierat till urklipp</string>
+    <string name="create_tournament">Create Tournament</string>
+    <string name="click_here_to_rate_this_match">Betygsätt denna match</string>
+    <string name="rate_event_txt">RateEvent</string>
+    <string name="rate_this_team">Rate this team</string>
+    <string name="payment">Betala</string>
+    <string name="pay_now">Betala nu</string>
+    <string name="confirmed">Bekräftad</string>
+    <string name="amount_to_pay">Belopp</string>
+    <string name="payment_processing">Payment processing..</string>
+    <string name="switch_team_confirmation">Byta lag till </string>
+    <string name="swish_not_installed">Swish är inte installerad. Var vänlig installera Swish först.</string>
+    <string name="debug_info">Debug info</string>
+    <string name="rate">Rate</string>
+    <string name="team_exp">EXP</string>
+    <string name="no_club_found">Ingen klubb hittades</string>
+    <string name="could_not_find_club">We could not find your club add your club below.</string>
+    <string name="tournament_invalid">Felaktig ifylld formulär</string>
+    <string name="created_tournaments">Skapade</string>
+    <string name="registration_closed">Anmälan stängd</string>
+    <string name="payment_declined">Betalning nekad</string>
+    <string name="pay_with_swish">Betala med Swish</string>
+    <string name="complete_your_profile">Du måste komplettera dina kontakt uppgifter innan du kan skapa en match eller cup.</string>
+    <string name="service_charge_info">Serviceavgift</string>
+    <string name="swish_not_initiated">Kan ej starta Swish. Var vänlig kontroller om Swish är korrekt installerad.</string>
+    <string name="swish_payment_request_processing">Swish betalning behandlas</string>
+    <string name="swish_payment_request_status_error">"Swish betalning misslyckades med id "</string>
+    <string name="swish_payment_paid">Betalning lyckades</string>
+    <string name="swish_payment_declined">Betalning misslyckades</string>
+    <string name="swish_payment_error">Betalning misslyckades prova igen senare.</string>
+    <string name="payment_swish_processing_error">Betalning misslyckades teknisk fel har inträffat.</string>
+    <string name="published">Publiserad</string>
+    <string name="not_published">Ej publiserad</string>
+    <string name="cancel_tournament">Cup avbokad</string>
+    <string name="swish_payment_request_error">Ett fel har inträffat vid betalningsförfrågan till Swish</string>
+    <string name="publish">Publisera</string>
+    <string name="tournament_is_full">Cupen är full</string>
+    <string name="slot_reserved_for_tournament_pay_within_24hours">En plats har reseraverats för dig betala inom 24h</string>
+    <string name="you_are_already_in_tournament">Du är redan anmäld</string>
+    <string name="free_tournament_no_service_charge_applied">Gratis turnering skapad inga serviceavgift tillkommer</string>
+    <string name="spots_left">platser kvar</string>
+    <string name="spot_left">plats kvar</string>
+    <string name="tournament_full">turnering full</string>
+    <string name="days_left">dagar kvar att anmäla</string>
+    <string name="day_left">dag kvar att anmäla</string>
+    <string name="last_day_to_apply">sista anmälningsdag</string>
+    <string name="last_day_to_publish_passed">turnering kan inte längre publiceras</string>
+    <string name="pay_to_publish">Betala för att publicera turnering</string>
+    <string name="service_charge_for_paid_tournaments">Serviceavift tillkommer med %1$s. Samt en avgift på %2$s deltagareavgift. Om cupen är gratis så tillkommer inga avgifter för publicering.</string>
+    <string name="terms_and_conditions_tournament">Jag godkänner ChallengeNow vilkor för köp <u>Vilkor för köp</u></string>
+    <string name="no_tournaments_created">Du har inte skapat några cuper.</string>
+    <string name="no_tournaments_applied">Du har inte anmält dig till några cuper.</string>
+    <string name="confirmed_requests_cant_be_revoked">Du kan inte avboka din anmälning till cup. Kontakta organisatören direkt för frågor angående avbokning</string>
+    <string name="start_date_earlier_than_last_application_date">Sista anmälningsdatum måste vara före start datum</string>
+    <string name="lorem_ipsum">Lorem Ipsum är en utfyllnadstext från tryck- och förlagsindustrin. Lorem ipsum har varit standard ända sedan 1500-talet, när en okänd boksättare tog att antal bokstäver och blandade dem för att göra ett provexemplar av en bok. Lorem ipsum har inte bara överlevt fem århundraden, utan även övergången till elektronisk typografi utan större förändringar. Det blev allmänt känt på 1960-talet i samband med lanseringen av Letraset-ark med avsnitt av Lorem Ipsum, och senare med mjukvaror som Aldus PageMaker.</string>
+    <string name="link">Läs mer</string>
+    <string name="reset_password_successful">Vi har skickat instruktioner för att återställa ditt lösenord.</string>
+    <string name="prompt_email_registred">Ange din registrerade epost</string>
+    <string name="statistics">statistik</string>
+    <string name="send_verification_mail">Var vänlig och verifiera din epost.</string>
+    <string name="no_rating">None</string>
+    <string name="please_verify_your_account">Var vänlig och verifiera din e-mail.</string>
+    <string name="deeplink_firebase_test">https://challengenowtest.page.link</string>
+    <string name="chat_match">Match</string>
+    <string name="chat_serie">Liga</string>
+    <string name="chat_tournament">Cup</string>
+    <string name="chat_team">Team</string>
+    <string name="team_has_no_open_games">Laget har inga öppna matcher.</string>
+    <string name="rating">Rating</string>
+    <string name="experience">EXP</string>
+    <string name="instagram">Instagram</string>
+    <string name="website_url">Hemsida</string>
+    <string name="facebook">Facebook</string>
+    <string name="social_media">Social media</string>
+    <string name="verification">kod</string>
+    <string name="phone_number_hint">736123456</string>
+    <string name="verify">Verifiera</string>
+    <string name="empty_conversation">Inga konversationer</string>
+    <string name="verify_your_number">Verifiera ditt nummer</string>
+    <string name="please_verify_your_phone_number">Verifiera ditt telefonnummer via sms kod som skickats till dig.</string>
+    <string name="invalid_phone_verification_code">Felaktig sms verifikationskod inmatad.</string>
+    <string name="phone_number">Telefon</string>
+    <string name="phone_number_invalid_format">Felaktig format på telefonnummer var vänlig använd +4671234567890</string>
+    <string name="sms_verification">sms kod</string>
+
+    <!-- -->
+    <string name="intro_welcome_title">Welcome to ChallengeNow!</string>
+    <string name="intro_create_matches_title">Hitta och Skapa Matcher</string>
+    <string name="intro_profile_title">Profil</string>
+    <string name="intro_tournaments_title">Turneringar</string>
+
+
+    <string name="intro_welcome_description"><![CDATA[Hitta matcher, Nya ställen att spela på och Nya lag att möta på era villkor.]]></string>
+    <string name="intro_create_matches_description"><![CDATA[Sök efter fotbollsmatcher att spela via vår match lista eller skapa egna matcher på era villkor som andra lag kan acceptera.]]></string>
+    <string name="intro_tournaments_description"><![CDATA[Sök efter turneringar som ert lag kan anmäla sig till eller skapa en egen turnering, vänta in lagen och ta betalt direkt i appen. Tjäna pengar till ert lag.]]></string>
+    <string name="intro_profile_description"><![CDATA[Berätta om ert lag, vilken nivå ni spelar i. Vilka dagar och tider ni är tillgängliga. Information som är bra för andra lag att känna till.]]></string>
+
+
+    <string name="change_logo">Byt logotyp</string>
+    <string name="delete_team">Radera ditt lag %1$s</string>
+    <string name="verify_your_email">Verifiera din epost</string>
+    <string name="error_username_or_password">Felaktig användarnamn eller lösenord.</string>
+    <string name="error_access_token_missing">Ett fel har inträffat när du skulle loggas in.</string>
+    <string name="color_page">#00609D3E</string>
+    <string name="intro_thank_you">Vi hoppas att du kommer trivas med ChallengeNow!</string>
+    <string name="intro_thank_you_title">Lycka till på era matcher!</string>
+    <string name="field_not_in_range">Field not in range %1$d and %2$d</string>
+
+</resources>

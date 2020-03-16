@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/object_margin">
+
+    <ImageView
+        android:id="@+id/teamLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/mg_10"
+        android:src="@drawable/ic_shield_team" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/teamLogo"
+        android:layout_toRightOf="@+id/teamLogo"
+        android:orientation="vertical"
+        android:padding="@dimen/object_margin">
+
+        <TextView
+            android:id="@+id/team_name_txt"
+            style="@style/rowItemTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="@string/name"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/clubName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="2dp"
+            android:text="TextView"
+            android:textColor="@color/club_name_list"
+            android:textSize="12sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="3"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center_vertical|start"
+                android:layout_weight="0.1"
+                app:srcCompat="@drawable/ic_stadium" />
+
+            <TextView
+                android:id="@+id/arenaName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.4"
+                android:padding="2dp"
+                android:text="@string/arena"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/distance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:gravity="right"
+                android:padding="2dp"
+                android:text="X km"
+
+                android:textSize="11sp"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

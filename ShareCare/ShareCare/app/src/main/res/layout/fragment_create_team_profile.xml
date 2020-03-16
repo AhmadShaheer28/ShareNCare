@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/content_match_request"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/light_gray"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <include
+        android:id="@+id/progressView"
+        layout="@layout/progress_view"
+        android:visibility="gone"></include>
+
+    <LinearLayout
+        android:id="@+id/createTeamView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/mg_5">
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:padding="@dimen/mg_5">
+
+                <EditText
+                    android:id="@+id/teamNameEdit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:drawableLeft="@drawable/ic_team_shirt"
+                    android:drawablePadding="10dip"
+                    android:gravity="center_vertical"
+                    android:hint="@string/team_name"
+                    android:inputType="text"
+                    android:lines="1"
+                    android:padding="@dimen/pd_5"
+                    android:scrollbars="vertical"
+                    android:textSize="14dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:padding="@dimen/mg_5">
+
+                <EditText
+                    android:id="@+id/coachNameEdit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:drawableLeft="@drawable/ic_coach"
+                    android:drawablePadding="10dip"
+                    android:gravity="center_vertical"
+                    android:hint="@string/coach_name"
+                    android:inputType="text"
+                    android:lines="1"
+                    android:padding="@dimen/pd_5"
+                    android:scrollbars="vertical"
+                    android:textSize="14dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@color/white"
+                android:orientation="horizontal"
+                android:padding="@dimen/mg_5"
+                android:weightSum="2">
+
+                <com.hbb20.CountryCodePicker
+                    android:id="@+id/ccp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    app:ccp_autoDetectCountry="true"
+                    app:ccp_textSize="14dp" />
+
+                <EditText
+                    android:id="@+id/phoneNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white"
+                    android:gravity="center_vertical"
+                    android:hint="@string/phone_number_hint"
+                    android:inputType="phone"
+                    android:lines="1"
+                    android:padding="@dimen/pd_5"
+                    android:scrollbars="vertical"
+                    android:textSize="14dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@color/white"
+                android:orientation="horizontal"
+                android:padding="@dimen/mg_5"
+                android:weightSum="2">
+
+                <ImageView
+                    android:id="@+id/club_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1.8"
+                    android:src="@drawable/ic_shield_team" />
+
+                <TextView
+                    android:id="@+id/select_club"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.2"
+                    android:background="@color/white"
+                    android:hint="@string/select_club"
+                    android:paddingLeft="10dp"
+                    android:textSize="14dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@color/white"
+                android:orientation="horizontal"
+                android:padding="@dimen/mg_5"
+                android:weightSum="2">
+
+                <ImageView
+                    android:id="@+id/league_icon"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1.8"
+                    android:src="@drawable/tab_league" />
+
+                <TextView
+                    android:id="@+id/select_league"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.2"
+                    android:background="@color/white"
+                    android:hint="@string/select_league"
+                    android:paddingLeft="10dp"
+                    android:textSize="14dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@color/white"
+                android:orientation="horizontal"
+                android:padding="@dimen/mg_5"
+                android:weightSum="2">
+
+                <ImageView
+                    android:id="@+id/arena_icon"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1.8"
+                    android:src="@drawable/ic_stadium_grey" />
+
+                <TextView
+                    android:id="@+id/select_arena"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.2"
+                    android:background="@color/white"
+                    android:hint="@string/select_arena"
+                    android:paddingLeft="10dp"
+                    android:textSize="14dp" />
+
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/registerTeamBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/mg_20"
+                android:layout_marginBottom="@dimen/mg_20"
+                android:background="@drawable/default_btn_bg"
+                android:paddingLeft="@dimen/pd_40"
+                android:paddingRight="@dimen/pd_40"
+                android:text="@string/register_team"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

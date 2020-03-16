@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "703997369105",
+    "firebase_url": "https://sharecare-cb659.firebaseio.com",
+    "project_id": "sharecare-cb659",
+    "storage_bucket": "sharecare-cb659.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:703997369105:android:f56a91462b5178cd820ab0",
+        "android_client_info": {
+          "package_name": "com.example.sharecare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "703997369105-t52vqemidd0k4q2ckmorblug9nl0e46o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sharecare",
+            "certificate_hash": "64322df1275b625cee95849c010511994ded559c"
+          }
+        },
+        {
+          "client_id": "703997369105-k8d8b4ci7fhsqctksrfnh59l9fco2pmj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCm3Lnk1OTzFwL3zTHL99m7lKbhu652P24"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "703997369105-k8d8b4ci7fhsqctksrfnh59l9fco2pmj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
