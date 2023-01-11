@@ -31,7 +31,7 @@
         "http-errors": "^1.6.3",
         "joi": "^14.3.1",
         "json2xls": "^0.1.2",
-        "jsonwebtoken": "^8.2.1",
+        "jsonwebtoken": "^9.0.0",
         "method-override": "^3.0.0",
         "mongoose": "^5.1.0",
         "morgan": "^1.9.1",
