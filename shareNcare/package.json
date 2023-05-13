@@ -38,7 +38,7 @@
         "mssql": "^4.3.0",
         "mysql": "^2.17.1",
         "node-async-loop": "^1.2.2",
-        "nodemailer": "^5.1.1",
+        "nodemailer": "^6.4.16",
         "nodemon": "^1.18.9",
         "npm": "^6.10.0",
         "passport": "^0.4.0",
