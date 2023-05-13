@@ -40,7 +40,7 @@
         "node-async-loop": "^1.2.2",
         "nodemailer": "^5.1.1",
         "nodemon": "^1.18.9",
-        "npm": "^6.10.0",
+        "npm": "^9.6.6",
         "passport": "^0.4.0",
         "passport-jwt": "^4.0.0",
         "passport-local": "^1.0.0",
