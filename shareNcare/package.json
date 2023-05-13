@@ -40,7 +40,7 @@
         "node-async-loop": "^1.2.2",
         "nodemailer": "^5.1.1",
         "nodemon": "^1.18.9",
-        "npm": "^6.10.0",
+        "npm": "^6.14.18",
         "passport": "^0.4.0",
         "passport-jwt": "^4.0.0",
         "passport-local": "^1.0.0",
@@ -64,7 +64,7 @@
         "karma-coverage-istanbul-reporter": "2.0.4",
         "karma-jasmine": "~2.0.1",
         "karma-jasmine-html-reporter": "1.4.0",
-        "protractor": "^5.4.1",
+        "protractor": "^5.4.4",
         "ts-node": "~7.0.1",
         "tslint": "~5.12.0",
         "typescript": "^3.2.2"
